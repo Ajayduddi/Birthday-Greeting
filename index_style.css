@@ -1,0 +1,14 @@
+body{
+    background: center;
+    background-image: url(https://www.pexels.com/photo/956999/download/);
+    background-size:cover;
+}
+.inputbox{
+    background: center;
+    margin-top: 250px;
+    text-align: center; 
+    color: azure;  
+    display: block;
+    border: white;
+}
+
