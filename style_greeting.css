@@ -9,12 +9,16 @@ img{
 #message{
     font-family: "sofia",serif;
     font-size: 75px;
-    color:peru;
-    margin-top: -40px;
-    text-shadow: 4px;
+    color:coral;
+    margin-top: -40px; 
 }
-
-
+#my-canvas{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh
+}
 /*@media screen {
 
     #body{

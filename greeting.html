@@ -2,7 +2,8 @@
 <html lang="en">
     <link rel="stylesheet" href="style_greeting.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Tangerine&effect=neon|outline|emboss|shadow-multiple|fire|fire-animation">
-<head>
+    <script src="cracker.js"></script>
+    <head>
     <title>Birthday wishes</title>
 </head>
 <body>
@@ -10,8 +11,14 @@
     <center><img src="https://www.pngplay.com/wp-content/uploads/6/Happy-Birthday-to-you-PNG.png" style="height: 450px; width: 700px;"></center>
     <center><h1 id="message" class="font-effect-fire-animation"></h1></center>
 
+    <canvas id="my-canvas"></canvas>
     <script>
         document.getElementById("message").innerHTML=localStorage.getItem("text");
+
+
+        var confettiSettings = { target: 'my-canvas' };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
     </script>
 
 </body>
