@@ -6,11 +6,18 @@ body{
 img{
     padding-top: 70px;
 }
-@media screen {
+#message{
+    font-family:Georgia;
+    text-align: center;
+}
+
+
+/*@media screen {
 
     #body{
         background-image: url(https://cdn.wallpapersafari.com/16/69/rcj6Cz.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
     }
     
-}
+}*/
