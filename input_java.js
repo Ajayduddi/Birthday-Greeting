@@ -1,7 +1,6 @@
 function myfun(){
-    let usrinput=document.querySelector("#text");
-    let message=document.querySelector("message");
-
-    message.innerHTML=usrinput.value;
+    var name=document.getElementById("usrinput").value;
+    localStorage.setItem("text",name);
+    return false;
 
 }

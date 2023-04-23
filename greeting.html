@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="style_greeting.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Tangerine&effect=neon|outline|emboss|shadow-multiple|fire|fire-animation">
 <head>
     <title>Birthday wishes</title>
-    <script src="input_java.js"></script>
 </head>
 <body>
 
-    <center><img src="https://www.pngplay.com/wp-content/uploads/6/Happy-Birthday-to-you-PNG.png" style="height: 400px; width: 700px;"></center>
-    <center><h1 id="message" style="height: 300px; width: 400px; padding: 0%;"></h1></center>
+    <center><img src="https://www.pngplay.com/wp-content/uploads/6/Happy-Birthday-to-you-PNG.png" style="height: 450px; width: 700px;"></center>
+    <center><h1 id="message" class="font-effect-fire-animation"></h1></center>
+
+    <script>
+        document.getElementById("message").innerHTML=localStorage.getItem("text");
+    </script>
 
 </body>
 </html>
