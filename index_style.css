@@ -22,7 +22,10 @@ button{
     background: transparent;
     border: 2px solid black;
 }
-button:hover,:active{
+button:hover{
+    background-color: azure;
+}
+button:active{
     background-color: azure;
 }
 input{
