@@ -8,14 +8,15 @@
 </head>
 <body>
 
-    <center><img src="Happy-Birthday.png" style="height: 450px; width: 700px;"></center>
+    <center><img src="images/Happy-Birthday.png" style="height: 450px; width: 700px;"></center>
     <center><h1 id="message" class="font-effect-fire-animation"></h1></center>
 
     <canvas id="my-canvas"></canvas>
     <script>
+        /* read input */
         document.getElementById("message").innerHTML=localStorage.getItem("text");
 
-
+        /* add conflieet */
         var confettiSettings = { target: 'my-canvas' };
         var confetti = new ConfettiGenerator(confettiSettings);
         confetti.render();
