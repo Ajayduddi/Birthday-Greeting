@@ -5,8 +5,8 @@ body{
 
 }
 .inputbox{
-    margin-left: 90px;
-    margin-top: 250px;
+    margin-left: 150px;
+    margin-top: 300px;
     width: 500px;
     text-align: center; 
     color:black;
@@ -36,18 +36,20 @@ input{
     font-size: medium;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:400px){
     body{
-        background-image: url(https://e1.pxfuel.com/desktop-wallpaper/179/603/desktop-wallpaper-party-animals-phone-backgrounds-birtay-mobile.jpg);
-        height: 850px;
+        background-image: url(https://images.pexels.com/photos/1793037/pexels-photo-1793037.jpeg?cs=srgb&dl=pexels-lil-artsy-1793037.jpg&fm=jpg);
+        height: 1000px;
+        width:400px;
         background-repeat: no-repeat;
         background-position: fixed;
     }
     .inputbox{
-        margin-top:250px;
-        margin-left: 30px;
+        margin-top:200px;
+        margin-left: 10px;
         text-align: center;
         color: whitesmoke;
+        filter: drop-shadow();
     }
     button{
         color: whitesmoke;
