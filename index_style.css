@@ -36,14 +36,14 @@ input{
     font-size: medium;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     html{
         width: fit-content;
         height: fit-content;
     }
     body{
         background-image: url(https://images.pexels.com/photos/1793037/pexels-photo-1793037.jpeg?cs=srgb&dl=pexels-lil-artsy-1793037.jpg&fm=jpg);
-        height: 850px;
+        height: 900px;
         background-repeat: no-repeat;
         background-position: fixed;
     }
