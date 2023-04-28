@@ -39,11 +39,11 @@ input{
 @media screen and (max-width:500px){
     html{
         width:max-content;
-        height:fit-content;
+        height:max-content;
     }
     body{
         background-image: url(https://images.pexels.com/photos/1793037/pexels-photo-1793037.jpeg?cs=srgb&dl=pexels-lil-artsy-1793037.jpg&fm=jpg);
-        height:fit-content;
+        height:800px;
         width: max-content;
         background-repeat: no-repeat;
         background-position: fixed;
