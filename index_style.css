@@ -43,15 +43,15 @@ input{
     }
     body{
         background-image: url(https://images.pexels.com/photos/1793037/pexels-photo-1793037.jpeg?cs=srgb&dl=pexels-lil-artsy-1793037.jpg&fm=jpg);
-        height:800px;
+        height:850px;
         width: max-content;
-        background-repeat: no-repeat;
+        background-size: cover;
         background-position: fixed;
     }
     .inputbox{
         margin-top:200px;
-        margin-left: 1px;
-        margin-right: 1px;
+        margin-left: 2px;
+        margin-right: 2px;
         text-align: center;
         color: whitesmoke;
         filter: drop-shadow();
